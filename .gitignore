@@ -1,3 +1,6 @@
 **/.idea
 **/.ipynb_checkpoints
 .DS_Store
+pennylane_demo/
+OldFiles/
+Image/
