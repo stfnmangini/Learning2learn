@@ -1,5 +1,7 @@
 # QOSF Mentorship Program
 
+### Gotta rewrite this readme.
+
 This is a repository for loading the codes and files for the mentorship program.
 
 #### Useful links:
