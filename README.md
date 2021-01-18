@@ -28,9 +28,9 @@ The Jupyter Notebook is written in `Python`, and the following packages are need
 - `PennyLane`:  a cross-platform `Python` library for differentiable programming of quantum computers, which in this tutorial will be used to create quantum circuits and interface them with  
 - `TensorFlow`: an open-source platform for machine learning, here used to build a custom model of a Recurrent Neural Network (RNN)
 - `NetworkX`: a `Python` package for the creation, manipulation, and study of the structure, dynamics, and functions of complex networks  
-- `Numpy`, `Matplotlib`: standard libraries for array manipulation and plotting   
+- `Numpy`, `Matplotlib`: standard libraries for array manipulation and plotting  
 
-#### References  
+### References  
 ---
 <a id="1">[1]</a>
 Verdon G., Broughton M., McClean J. R., Sung K. J., Babbush R., Jiang Z., Neven H. and Mohseni M. (2019),  
@@ -40,4 +40,10 @@ Learning to learn with quantum neural networks via classical neural networks, [a
 https://pennylane.ai/
 
 <a id="3">[3]</a>
-https://www.tensorflow.org/
+https://www.tensorflow.org/  
+
+---  
+
+If you have any doubt, or wish to discuss about the project don't hesitate to contact me, I'll be very happy to help you as much as I can 😁
+
+Have a great quantum day!
