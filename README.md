@@ -3,10 +3,10 @@
 <p align="center">
   <a href="https://colab.research.google.com/github/stfnmangini/Learning2learn/blob/main/Learning2Learn.ipynb">
     <img src="https://colab.research.google.com/assets/colab-badge.svg">
-  </a> 
+  </a>
 </p>
-  
-<img src="/thumbnail3.png" width="300px" align="right">
+
+<img src="/thumbnail.png" width="300px" align="right">
 
 > This project was created as part of the Quantum Open Source Foundation (QOSF) Mentorship Program. More on: https://qosf.org/  
 
@@ -16,7 +16,7 @@ This repository implements the architecture proposed by Verdon et al. in the pap
 ---
 Variational Quantum Algorithms (VQAs) are powerful tools which promise to take full advantage of near term quantum computers. However, these algorithms suffer from optimization issues related to random initialization of the parameters. Using PennyLane and Tensorflow, this repository implements the architecture proposed by Verdon et al. in *Learning to learn with quantum neural networks via classical neural networks*, which leverage a classical Recurrent Neural Network (RNN) to assist the optimization of variational quantum algorithms by learning an efficient parameter initialization heuristics to ensure rapid training and convergence.  
 
-More in detail, by means of an hybrid quantum-classical recurrent setup, a Long-Short Term Memory (LSTM) is used as a black-box controller to initialize the parameters of a variational quantum circuit. In particular, in this notebook we focus our attention on the optimization of a QAOA quantum circuit to solve the MaxCut problem. An outline of the architecutre is the following, and you can find a careful explanation in the notebook. 
+More in detail, by means of an hybrid quantum-classical recurrent setup, a Long-Short Term Memory (LSTM) is used as a black-box controller to initialize the parameters of a variational quantum circuit. In particular, in this notebook we focus our attention on the optimization of a QAOA quantum circuit to solve the MaxCut problem. An outline of the architecutre is the following, and you can find a careful explanation in the notebook.
 
 ![RNN scheme](/HybridLSTM.png)  
 
@@ -32,12 +32,12 @@ The Jupyter Notebook is written in `Python`, and the following packages are need
 
 #### References  
 ---
-<a id="1">[1]</a> 
+<a id="1">[1]</a>
 Verdon G., Broughton M., McClean J. R., Sung K. J., Babbush R., Jiang Z., Neven H. and Mohseni M. (2019),  
 Learning to learn with quantum neural networks via classical neural networks, [arXiv:1907.05415](https://arxiv.org/abs/1907.05415).
 
-<a id="2">[2]</a> 
+<a id="2">[2]</a>
 https://pennylane.ai/
 
-<a id="3">[3]</a> 
+<a id="3">[3]</a>
 https://www.tensorflow.org/
