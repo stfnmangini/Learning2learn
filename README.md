@@ -1,5 +1,11 @@
-# Learning to learn with quantum neural networks via classical neural network (QOSF Mentorship Program)
----  
+# Learning to learn with quantum neural networks via classical neural network (QOSF Mentorship Program)  
+
+<p align="center">
+  <a href="https://colab.research.google.com/github/stfnmangini/Learning2learn/blob/main/Learning2Learn.ipynb">
+    <img src="https://colab.research.google.com/assets/colab-badge.svg">
+  </a> 
+</p>
+  
 <img src="/thumbnail3.png" width="300px" align="right">
 
 > This project was created as part of the Quantum Open Source Foundation (QOSF) Mentorship Program. More on: https://qosf.org/  
@@ -8,11 +14,13 @@ This repository implements the architecture proposed by Verdon et al. in the pap
 
 ### Project desctiption
 ---
-Variational Quantum Algorithms (VQAs) are powerful tools which promise to take full advantage of near term quantum computers. However, these algorithms suffer from optimization issues related to random initialization of the parameters. Using PennyLane and Tensorflow, this repository implements the architecture proposed by Verdon et al. in "Learning to learn with quantum neural networks via classical neural networks", which leverage a classical Recurrent Neural Network to assist the optimization of variational quantum algorithms by learning an efficient parameter initialization heuristics to ensure rapid training and convergence.  
+Variational Quantum Algorithms (VQAs) are powerful tools which promise to take full advantage of near term quantum computers. However, these algorithms suffer from optimization issues related to random initialization of the parameters. Using PennyLane and Tensorflow, this repository implements the architecture proposed by Verdon et al. in *Learning to learn with quantum neural networks via classical neural networks*, which leverage a classical Recurrent Neural Network (RNN) to assist the optimization of variational quantum algorithms by learning an efficient parameter initialization heuristics to ensure rapid training and convergence.  
 
-More in detail, by means of an hybrid quantum-classical recurrent setup, a Long-Short Term Memory (LSTM) is used as a black-box controller to initialize the parameters of a QAOA quantum circuit used to solve the MaxCut problem. An outline of the architecutre is the following, and you can find a careful explanation in the notebook. 
+More in detail, by means of an hybrid quantum-classical recurrent setup, a Long-Short Term Memory (LSTM) is used as a black-box controller to initialize the parameters of a variational quantum circuit. In particular, in this notebook we focus our attention on the optimization of a QAOA quantum circuit to solve the MaxCut problem. An outline of the architecutre is the following, and you can find a careful explanation in the notebook. 
 
-![RNN scheme](/HybridLSTM.png)
+![RNN scheme](/HybridLSTM.png)  
+
+> If you need a quick recap on how to use QAOA to solve MaxCut, check out this great demo: https://pennylane.ai/qml/demos/tutorial_qaoa_maxcut.html
 
 ### Required packages  
 ---
