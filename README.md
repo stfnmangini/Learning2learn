@@ -1,4 +1,4 @@
-# Learning to learn with quantum neural networks via classical neural network (QOSF Mentorship Program)  
+# Learning to learn with quantum neural networks via classical neural network (w/ PennyLane & TensorFlow)  
 
 <p align="center">
   <a href="https://colab.research.google.com/github/stfnmangini/Learning2learn/blob/main/Learning2Learn.ipynb">
