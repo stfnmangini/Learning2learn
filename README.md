@@ -14,13 +14,13 @@ This repository implements the architecture proposed by Verdon et al. in the pap
 
 ### Project desctiption
 ---
-Variational Quantum Algorithms (VQAs) are powerful tools which promise to take full advantage of near term quantum computers. However, these algorithms suffer from optimization issues related to random initialization of the parameters. Using PennyLane and Tensorflow, this repository implements the architecture proposed by Verdon et al. in *Learning to learn with quantum neural networks via classical neural networks*, which leverage a classical Recurrent Neural Network (RNN) to assist the optimization of variational quantum algorithms by learning an efficient parameter initialization heuristics to ensure rapid training and convergence.  
+Variational Quantum Algorithms (VQAs)[[4]](#4) are powerful tools which promise to take full advantage of near term quantum computers. However, these algorithms suffer from optimization issues related to random initialization of the parameters. Using PennyLane and Tensorflow, this repository implements the architecture proposed by Verdon et al. in *Learning to learn with quantum neural networks via classical neural networks*, which leverage a classical Recurrent Neural Network (RNN) to assist the optimization of variational quantum algorithms by learning an efficient parameter initialization heuristics to ensure rapid training and convergence.  
 
 More in detail, by means of an hybrid quantum-classical recurrent setup, a Long-Short Term Memory (LSTM) is used as a black-box controller to initialize the parameters of a variational quantum circuit. In particular, in this notebook we focus our attention on the optimization of a QAOA quantum circuit to solve the MaxCut problem. An outline of the architecutre is the following, and you can find a careful explanation in the notebook.
 
 ![RNN scheme](/HybridLSTM.png)  
 
-> If you need a quick recap on how to use QAOA to solve MaxCut, check out this great demo: https://pennylane.ai/qml/demos/tutorial_qaoa_maxcut.html
+> If you need a quick recap on how to use QAOA to solve graph problems, check out this great tutorial: https://pennylane.ai/qml/demos/tutorial_qaoa_intro.html
 
 ### Required packages  
 ---
@@ -41,6 +41,9 @@ https://pennylane.ai/
 
 <a id="3">[3]</a>
 https://www.tensorflow.org/  
+
+<a id="4">[4]</a>
+Cerezo M., Arrasmith A., Babbush R., Benjamin S. C., Endo S., Fujii K., McClean J. R., Mitarai K., Yuan X., Cincio L. and Coles P. J. (2020), Variational Quantum Algorithms, [arXiv:2012.09265](https://arxiv.org/abs/2012.09265).  
 
 ---  
 
