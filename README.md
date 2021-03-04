@@ -8,7 +8,10 @@
 
 <img src="/thumbnail.png" width="300px" align="right">
 
+> **UPDATE** (04/03/2021): I'm super happy to announce that a slightly modified version of this tutorial is now featured as a demo on PennyLane's website, here: https://pennylane.ai/qml/demos/learning2learn.html
+
 > This project was created as part of the Quantum Open Source Foundation (QOSF) Mentorship Program. More on: https://qosf.org/  
+> 
 
 This repository implements the architecture proposed by Verdon et al. in the paper *Learning to learn with quantum neural networks via classical neural networks* [[1]](#1), using **PennyLane** [[2]](#2) and **TensorFlow** [[3]](#3).  
 
